@@ -26,7 +26,7 @@ jobs:
 
       - name: Compiler pour le Web
         # ⚠️ TRÈS IMPORTANT : Remplace "NOM_DU_DEPOT" par le nom exact de ton projet sur GitHub
-        run: flutter build web --release --base-href "/NOM_DU_DEPOT/"
+        run: flutter build web --release --base-href "/jeux151/"
 
       - name: Déployer sur Internet
         uses: peaceiris/actions-gh-pages@v3
